@@ -12,4 +12,6 @@ Point* createArray(int numPoints);
 void deletePoints(Point* points);
 void printArray(Point* points, int numPoints);
 void sortPoints(Point* points, int numPoints);
+
+void foo(int x, int y);
 #endif //LAB2_UTIL_H
