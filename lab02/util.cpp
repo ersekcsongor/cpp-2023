@@ -79,3 +79,35 @@ bool compPoints(Point a,Point b)
 void sortPoints(Point *points, int numPoints) {
     sort(points, points + numPoints,compPoints);
 }
+
+pair<Point, Point> closestPoints(Point *points, int numPoints) {
+    pair<Point, Point> closestPoints;
+    closestPoints.first = points[0];
+    closestPoints.second = points[1];
+    for(int i = 2; i < numPoints; i++) {
+        double dist1 = distance(points[i], closestPoints.first);
+        double dist2 = distance(points[i], closestPoints.second);
+
+        if(dist1 < dist2) {
+            closestPoints.second = points[i];
+        } else {
+            closestPoints.first = points[i];
+        }
+    }
+    return closestPoints;
+}
+
+Point *farthestPointsFromOrigin(Point *points, int numPoints) {
+    Point *farthestPoints = new Point[numPoints];
+    for(int i = 0; i < numPoints; i++) {
+        farthestPoints[i] = points[i];
+    }
+    for(int i = 0; i < numPoints; i++) {
+        farthestPoints[i].print();
+        cout << endl;
+    }
+    return farthestPoints;
+}
+
+
+

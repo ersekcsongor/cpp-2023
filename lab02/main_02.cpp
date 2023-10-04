@@ -4,6 +4,11 @@
 #include <cstdlib>
 using namespace std;
 
+ostream& operator<<(ostream& os, Point p) {
+    os << "(" << p.getX() << ", " << p.getY() << ")";
+    return os;
+}
+
 int main(int argc, char **argv) {
     /*Point p1(1, 2);
     p1.print();
@@ -33,6 +38,10 @@ int main(int argc, char **argv) {
     cout <<"Sorted array:"<< endl;
     sortPoints(points,numPoints);
     printArray(points,numPoints);
-
+    cout << endl <<"Closest Points:" << endl;
+    cout << closestPoints(points,numPoints).first << " " << closestPoints(points,numPoints).second << endl;
+    cout << endl <<"Farthest Points:" << endl;
+    farthestPointsFromOrigin(points,numPoints);
+    deletePoints(points);
     return 0;
 }
