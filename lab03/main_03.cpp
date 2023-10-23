@@ -19,9 +19,10 @@ int main() {
         cout<<setw(6)<<n<<" ";
         cout<<setw(8)<<setprecision(2)<<pSet.minDistance()<<" ";
         cout<<setw(8)<<setprecision(2)<<pSet.maxDistance()<<" ";
-        cout<<setw(10) << pSet.numDistances()<<endl;
-//        cout<<setw(16) << pSet.numDistinctDistances()<<endl;
+        cout<<setw(10) << pSet.numDistances()<<" ";
+        cout<<setw(16) << pSet.numDistinctDistances()<<endl;
         n = n << 1;
     }
+
     return 0;
 }
