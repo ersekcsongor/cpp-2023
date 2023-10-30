@@ -12,8 +12,8 @@ A Full-Stack Developer
 1
 Q Mit ertunk startup alatt?
 A Tozsdén jegyzett vallalkozast
-A Olyan, nagy tokovel rendelkezo vallalkozast, mely foleg kisebb cegek felvasarlasaval novekszik
-A Otlet-alapu, gyors novekedes lehetoseget magaban foglo fiatal vallalkozast
+A Olyan, nagy tokevel rendelkezo vallalkozast, mely foleg kisebb cegek felvasarlasaval novekszik
+A Otlet-alapu, gyors novekedes lehetoseget magaban foglalo fiatal vallalkozast
 A Palyazati penzbol inditott vallalkozast
 3
 Q Melyik ceg NEM fuzodik Elon Musk nevehez?

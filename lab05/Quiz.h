@@ -14,6 +14,7 @@ private:
 
 public:
     Quiz(const string &name,const string &filename);
+
     const Question &getQuestion(int index) const;
 
     int getNumQuestions() const{
