@@ -21,6 +21,7 @@ public:
     Matrix( Matrix&& what );
 // Destructor
     ~Matrix();
+    //
 
     void printMatrix(ostream& os = cout) const;
     void fillMatrix(double value);
