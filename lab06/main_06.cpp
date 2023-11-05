@@ -85,7 +85,7 @@ int main(int argc, char** argv) {
     cout<<"******************************************************************"<<endl;
     cout<<" = operator -- copy assignment "<<endl;
     cout<<"******************************************************************"<<endl;
-    Matrix m6(m4);
+    Matrix m6(2, 2);
     cout << "m6 created as a copy of m4 using copy constructor: " <<endl<< m6 << endl;
     try {
         cout<<"m1 = m6 = m6"<<endl;
