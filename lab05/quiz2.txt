@@ -1,0 +1,60 @@
+Q Who holds the record for the most Formula 1 World Championships?
+A Lewis Hamilton
+A Michael Schumacher
+A Juan Manuel Fangio
+A Sebastian Vettel
+1
+Q Which team has the most Constructors' Championships in Formula 1 history?
+A Ferrari
+A Mercedes
+A Red Bull Racing
+A McLaren
+1
+Q Which race is known as "The Jewel in the Crown" in Formula 1?
+A Monaco Grand Prix
+A Belgian Grand Prix
+A Singapore Grand Prix
+A Italian Grand Prix
+1
+Q Who is the official tire supplier of Formula 1?
+A Bridgestone
+A Michelin
+A Pirelli
+A Goodyear
+3
+Q Which driver is known as "The Flying Finn" in Formula 1?
+A Kimi Räikkönen
+A Valtteri Bottas
+A Mika Häkkinen
+A Keke Rosberg
+1
+Q How many points are awarded for a race win in a standard Formula 1 race?
+A 10
+A 15
+A 25
+A 50
+3
+Q Which Grand Prix circuit is famous for its Eau Rouge corner, one of the most iconic and challenging corners in Formula 1?
+A Silverstone Circuit
+A Circuit of the Americas
+A Spa-Francorchamps
+A Monza Circuit
+3
+Q Who is the youngest Formula 1 World Champion?
+A Lewis Hamilton
+A Sebastian Vettel
+A Max Verstappen
+A Fernando Alonso
+2
+Q Which team won the 2021 Formula 1 Constructors' Championship?
+A Mercedes
+A Ferrari
+A McLaren
+A Red Bull Racing
+4
+Q What is the term for the maneuver where a trailing driver drafts behind the car in front to reduce aerodynamic drag and overtake it on a straight?
+A Slipstreaming
+A Downforce
+A DRS (Drag Reduction System)
+A Understeer
+1
