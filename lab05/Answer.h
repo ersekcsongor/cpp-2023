@@ -1,5 +1,9 @@
-#ifndef LAB5_ANSWER_H
-#define LAB5_ANSWER_H
+//
+// Created by Csongor on 2023. 10. 23..
+//
+
+#ifndef CPP_2022_ANSWER_H
+#define CPP_2022_ANSWER_H
 
 #include <string>
 
@@ -10,7 +14,7 @@ private:
     string text;
     bool correct;
 public:
-    Answer(string text = "", bool correct = false) : text(text), correct(correct) {};
+    Answer(string text = "", bool correct = false):text(text), correct(correct) {}
 
     const string &getText() const{
         return text;
@@ -27,7 +31,6 @@ public:
     void setCorrect(bool correct){
         this->correct = correct;
     }
-
 };
 
-#endif //LAB5_ANSWER_H
+#endif //CPP_2022_ANSWER_H
