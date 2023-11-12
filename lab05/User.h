@@ -1,5 +1,5 @@
 //
-// Created by Csongor on 2023. 10. 23..
+// Created by Csongor on 2023. 11. 06..
 //
 
 #ifndef CPP_2022_USER_H
@@ -25,8 +25,6 @@ public:
     double getScore(const string& quizName) const;
     void print(ostream& os) const;
     friend ostream& operator<<(ostream& os, const User& user);
-
 };
-
 
 #endif //CPP_2022_USER_H

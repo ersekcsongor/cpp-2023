@@ -10,71 +10,37 @@
 using namespace std;
 class Book{
 public:
-    Book(const string author, const string title, int year, int pages) {
+
+    Book(const string author = " ", const string title = " ", int year = 0, int pages = 0) {
         this->author = author;
         this->title = title;
         this->year = year;
         this->pages = pages;
     }
 
-    Book readBook(Book &book1,string title, string author, int year, int pages)
-    {
-        book1.setTitle(title);
-        book1.setAuthor(author);
-        book1.setYear(year);
-        book1.setPages(pages);
-        return book1;
-    }
+    void readBook(Book & book1, string title,string author,int year,int pages);
 
-    const string &getAuthor() const {
-        return author;
-    }
+    const string &getAuthor() const;
 
-    const string &getTitle() const {
-        return title;
-    }
+    void setAuthor(const string &author);
 
-    int getYear() const {
-        return year;
-    }
+    const string &getTitle() const;
 
-    int getPages() const {
-        return pages;
-    }
+    void setTitle(const string &title);
 
-    void setAuthor(const string &author) {
-        Book::author = author;
-    }
+    int getYear() const;
 
-    void setTitle(const string &title){
-        Book::title = title;
-    }
+    void setYear(int year);
 
-    void setYear(int year) {
-        Book::year = year;
-    }
+    int getPages() const;
 
-    void setPages(int pages){
-        Book::pages = pages;
-    }
+    void setPages(int pages);
 
-    void printBook(ostream &stream)
-    {
-        stream << "--------------------" << endl;
-        stream << "Szerzo: " << author << endl;
-        stream << "Cim: " << title << endl;
-        stream << "Kiadasi ev: " << year << endl;
-        stream << "Oldalak szama: " << pages << endl;
-    }
+    void printBook(ostream &stream);
 
-    friend std::ostream& operator<<(ostream& os,const Book &book1)
-    {
-        os << "Szerzo: " << book1.author << endl;
-        os << "Cim: " << book1.title << endl;
-        os << "Kiadasi ev: " << book1.year << endl;
-        os << "Oldalak szama: " << book1.pages << endl;
-        return os;
-    }
+    friend ostream &operator<<(ostream &stream, const Book &book);
+
+
 private:
     string author;
     string title;

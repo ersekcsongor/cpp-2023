@@ -1,0 +1,18 @@
+Q What is the purpose of the "cout" object in C++?
+A It is used for reading input from the user.
+A It is used for performing mathematical calculations.
+A It is used for displaying output to the console.
+A It is used for defining classes.
+3
+Q Which of the following data types in C++ is not used for representing integer values?
+A int
+A float
+A long
+A short
+2
+Q What does the "break" statement do in a C++ loop?
+A It restarts the loop from the beginning.
+A It exits the loop prematurely and continues with the next iteration.
+A It increases the loop's iteration counter.
+A It prints a message to the console.
+2

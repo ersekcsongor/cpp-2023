@@ -1,76 +1,18 @@
-Q Mik az alapvető adattípusok a C++-ban?
-A int, float, double, char
-A string, boolean, array, struct
-A class, object, void, nullptr
-A for, while, do-while, switch
-1
-
-Q Mi a C++ osztályok alapvető egysége?
-A Adattagok és metódusok
-A Függvények és változók
-A Tömbök és ciklusok
-A Struktúrák és osztályok
-1
-
-Q Mire szolgál a `cin` objektum a C++-ban?
-A Fájl írására
-A Karakterláncok kezelésére
-A Standard bemenetről való adatok beolvasására
-A Dinamikus memória foglalására
+Q What is the purpose of the "const" keyword in C++?
+A It is used to declare a variable as uninitialized.
+A It is used to indicate that a function does not return a value.
+A It is used to specify that a variable's value cannot be changed after initialization.
+A It is used to define a constant integer.
 3
-
-Q Mi a különbség a referencia és a pointer között a C++-ban?
-A Nincs különbség, ugyanazt jelentik
-A A pointer egy változó címe, míg a referencia egy másik név ugyanarra a változóra
-A A referencia egy memóriacím, míg a pointer egy konkrét érték
-A A pointer mindig null értéket tartalmaz, a referencia sosem
+Q What is the difference between "while" and "do-while" loops in C++?
+A There is no difference; they are used interchangeably.
+A "do-while" loops always execute at least once, while "while" loops may not execute at all.
+A "while" loops are used for counting, and "do-while" loops are used for iteration.
+A "while" loops are only used with arrays, while "do-while" loops work with other data structures.
 2
-
-Q Hogyan lehet dinamikusan foglalni memóriát a C++-ban?
-A `malloc()` függvénnyel
-A `new` operátorral
-A `allocate()` függvénnyel
-A `malloc()` függvénnyel
+Q What is the purpose of the "new" operator in C++?
+A It is used to create a new instance of a class.
+A It is used to allocate memory for a new object on the heap.
+A It is used to delete an object from memory.
+A It is used to declare a variable with a new name.
 2
-
-Q Mi a kimenet a következő kódrészlet futtatása után?
-int x = 5;
-cout << x++;
-
-A 5
-A 6
-A 4
-A 10
-1
-
-Q Mi a kimenet a következő kódrészlet futtatása után?
-int arr[] = {1, 2, 3, 4, 5};
-cout << arr[3];
-
-A 1
-A 2
-A 3
-A 4
-4
-
-Q Mikor használható a `const` kulcsszó a C++-ban?
-A Amikor egy változót nem akarunk módosítani
-A Amikor egy függvény visszatérési értéke nem módosítható
-A Amikor egy osztály tagjai nem módosíthatóak
-A Minden fentie esetben helyes
-A Minden fentie esetben helyes
-5
-
-Q Mi a C++ standard könyvtár rövidítése?
-A STL
-A SLT
-A TSL
-A LTS
-1
-
-Q Milyen típusú hiba fordul elő, ha egy tömbön kívülre próbálunk írni a határain?
-A Szintaktikai hiba
-A Szemantikai hiba
-A Futtási idejű hiba
-A Logikai hiba
-3

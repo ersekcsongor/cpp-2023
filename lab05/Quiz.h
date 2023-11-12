@@ -17,6 +17,9 @@ public:
     int getNumQuestions() const{
         return questions.size();
     }
+    const string &getName() const {
+        return name;
+    }
 };
 
 #endif //CPP_2022_QUIZ_H

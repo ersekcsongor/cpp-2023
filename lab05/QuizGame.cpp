@@ -7,6 +7,7 @@
 #include <sstream>
 
 void QuizGame::play() {
+    cout << "Welcome to the " << quiz.getName() << " quiz, " << this->user.getName() << "!" << endl;
     for(int i = 0; i < quiz.getNumQuestions(); i++){
         cout << quiz.getQuestion(i).getText() << endl;
         for(int j = 0; j < quiz.getQuestion(i).getAnswers().size(); j++){
@@ -16,6 +17,7 @@ void QuizGame::play() {
         cin >> answer;
         if(quiz.getQuestion(i).getAnswers()[answer - 1].isCorrect()){
             score++;
+            this->user.addScore(quiz.getName(), score);
             cout << "Correct!" << endl;
         }
         else{
