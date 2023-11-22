@@ -144,7 +144,7 @@ int main() {
             }
         }
         return a.size() < b.size();
-    };
+    }; 
 
     sort(months.begin(),months.end(),compare);
     cout << "Furcsa abece szerint rendezett honapok: ";
