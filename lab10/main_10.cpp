@@ -49,5 +49,6 @@ int main() {
     manager2.addAlkalmazott(&alkalmazott1);
 
     ceg1.printManagers(cout);
+
     return 0;
 }
