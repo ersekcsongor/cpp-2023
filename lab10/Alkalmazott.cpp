@@ -6,6 +6,7 @@
 
 
 void Alkalmazott::print(ostream &os) const {
+    os << id <<" ";
     Szemely::print(os);
     os << " " << munkaKor;
 }

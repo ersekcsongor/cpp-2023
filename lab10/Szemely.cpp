@@ -4,7 +4,7 @@
 
 #include "Szemely.h"
 void Szemely::print(ostream &os) const {
-    os << this->vezetekNev << " " << this->keresztNev << " " << this->szuletesiEv;
+    os <<" "<< this->vezetekNev << " " << this->keresztNev ;
 }
 Szemely::Szemely(const string &vezetekNev, const string &keresztNev, int szuletesiEv) {
     this->vezetekNev = vezetekNev;

@@ -4,11 +4,13 @@
 
 #include "Manager.h"
 
+const string Manager::MANAGER_MUNKAKOR = "manager";
+
 Manager::Manager(const string &vezetekNev, const string &keresztNev, int szuletesiEv, const string &munkaKor)
         : Alkalmazott(vezetekNev, keresztNev, szuletesiEv, munkaKor) {}
 
 void Manager::addAlkalmazott(Alkalmazott *alkalmazott) {
-    beosztottak.push_back(*alkalmazott);
+    beosztottak.push_back(alkalmazott);
 }
 
 /*void Manager::deleteAlkalmazott(Alkalmazott* alkalmazott) {
@@ -22,8 +24,8 @@ void Manager::addAlkalmazott(Alkalmazott *alkalmazott) {
 }*/
 
 void Manager::deleteAlkalmazott(int id){
-    auto it = find_if(beosztottak.begin(), beosztottak.end(), [id](Alkalmazott& alkalmazott) {
-        return alkalmazott.getID() == id;
+    auto it = find_if(beosztottak.begin(), beosztottak.end(), [id](Alkalmazott* alkalmazott) {
+        return alkalmazott->getID() == id;
     });
 
     if (it != beosztottak.end()) {
@@ -32,13 +34,14 @@ void Manager::deleteAlkalmazott(int id){
 }
 
 void Manager::print(ostream &os) const {
-    os << "Manager neve: ";
-    Alkalmazott::print(os);
-    os << endl;
-    os << "Beosztottak: \n";
+    os << "Manager: "<< id <<" ";
+    Szemely::print(os);
+    os << " ";
+    os << "beosztottjai: \n";
     for(auto beosztott : beosztottak)
     {
-        beosztott.print(os);
+        os <<"\t";
+        beosztott->print(os);
         os << endl;
     }
 }
@@ -46,4 +49,16 @@ void Manager::print(ostream &os) const {
 int Manager::beosztottakSzama() {
     return (int)beosztottak.size();
 }
+
+const vector<Alkalmazott *> &Manager::getManagedEmployees() const {
+    return beosztottak;
+}
+
+/*Manager::~Manager() {
+    for(Alkalmazott* alkalmazott : beosztottak)
+    {
+        delete alkalmazott;
+    }
+    beosztottak.clear();
+}*/
 
