@@ -26,7 +26,7 @@ int main() {
     {
         cout << e << endl;
     }
-    cout << "County with the highest population: " <<  setlStat1.maxPopulationDensity() <<  endl;
-    cout <<  "County with the lowest population: " << setlStat1.minPopulationDensity() <<  endl;
+    cout << "Settlement with the highest population: " <<  setlStat1.maxPopulationDensity() <<  endl;
+    cout <<  "Settlement with the lowest population: " << setlStat1.minPopulationDensity() <<  endl;
     return 0;
 }
